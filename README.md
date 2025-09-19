@@ -1,16 +1,5 @@
 # Logiciel d'encryptage de mot de passe
 
-Description courte du projet (optionnelle).
-
-## Installation et lancement
-
-1. Clonez le dépôt :  
-```bash
-git clone https://github.com/LShiftt/encryptage-mot-de-passe
-
-
-# Logiciel d'encryptage de mot de passe
-
 Petit logiciel electron pour générer les encryptages les plus courant d'un mot de passe
 
 ---
