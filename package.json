@@ -1,0 +1,15 @@
+{
+  "name": "encryptage-mot-de-passe",
+  "version": "1.0.0",
+  "description": "Petit logiciel electron pour générer les encryptages les plus courant d'un mot de passe",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron app.js",
+    "build": "electron-builder"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^3.0.2",
+    "electron-builder": "^26.0.12"
+  }
+}

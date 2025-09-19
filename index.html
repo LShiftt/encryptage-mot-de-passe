@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Encryptage de mot de passe</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./styles.css">
+
+  <script>
+    delete module.exports
+  </script>
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="./window.js" charset="utf-8"></script>
+
+</head>
+
+<body>
+  <div id="container" class="container-fluid">
+
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+        <h3 class="hash-heading">Entrée</h3>
+        <textarea rows="2" id="text-input" class="form-control text-input"
+          placeholder="Entré du texte et voyez ces différents hashs..."></textarea>
+      </div>
+    </div>
+
+    <!-- MD5 -->
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <a href="https://fr.wikipedia.org/wiki/MD5" target="_blank">
+          <h3 class="hash-heading">MD5</h3>
+        </a>
+        <pre id="md5-output" class="hash-output"> </pre>
+      </div>
+    </div>
+
+    <!-- SHA-1 -->
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <a href="https://fr.wikipedia.org/wiki/SHA-1" target="_blank">
+          <h3 class="hash-heading">SHA-1</h3>
+        </a>
+        <pre id="sha1-output" class="hash-output"> </pre>
+      </div>
+    </div>
+
+    <!-- SHA-256 -->
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <a href="https://fr.wikipedia.org/wiki/SHA-2#SHA-256" target="_blank">
+          <h3 class="hash-heading">SHA-256</h3>
+        </a>
+        <pre id="sha256-output" class="hash-output"> </pre>
+      </div>
+    </div>
+
+    <!-- SHA-512 -->
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <a href="https://bitcoinwiki.org/wiki/sha-512" target="_blank">
+          <h3 class="hash-heading">SHA-512</h3>
+        </a>
+        <pre id="sha512-output" class="hash-output"> </pre>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>

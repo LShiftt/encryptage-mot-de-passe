@@ -1,0 +1,8 @@
+version: 1.0.0
+files:
+  - url: encryptage-mot-de-passe-Setup-1.0.0.exe
+    sha512: 9SkOSmbLgsfqaD/nQHaPYeCA60glzjVafNMGZeMHlwynKURPsAUWvLB8QKfHANypF72Xf3WTZa5y+DlwA12pmA==
+    size: 38038772
+path: encryptage-mot-de-passe-Setup-1.0.0.exe
+sha512: 9SkOSmbLgsfqaD/nQHaPYeCA60glzjVafNMGZeMHlwynKURPsAUWvLB8QKfHANypF72Xf3WTZa5y+DlwA12pmA==
+releaseDate: '2025-09-19T10:16:53.440Z'

@@ -1,0 +1,4 @@
+owner: LShiftt
+repo: encryptage-mot-de-passe
+provider: github
+updaterCacheDirName: encryptage-mot-de-passe-updater
