@@ -7,9 +7,9 @@ Petit logiciel electron pour générer les encryptages les plus courant d'un mot
 ## 🚀 Installation & Lancement
 
 Suivez ces étapes pour exécuter le projet :
-
-1. **Cloner le repo :**  
 ```bash
+1. **Cloner le repo :**  
+
 git clone https://github.com/LShiftt/encryptage-mot-de-passe
 
 2. **Acceder au dossier "dist" par votre explorateur de fichier**
